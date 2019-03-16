@@ -4,7 +4,7 @@ Built as part of 'JavaScript30' with Wes Bos.
 
 Enables user to shift select multiple checkboxes simultaneously, much like an email client.
 
-Live demo: TBC
+Live demo: https://lukeprosser.github.io/shift_checkboxes/
 
 ## Setup
 
@@ -26,8 +26,10 @@ At the end of the function, the variable 'lastChecked' is set to 'this' so that 
 
 The remaining code is contained within and if statement that checks:
 
+<ul>
 <li>Whether or not the shift key was pressed when the click took place;</li>
 <li>Whether the current checkbox is checked (to prevent the rest of the code from running if the checkbox isn't checked).</li>
+</ul>
 
 Once again, the checkboxes are looped through. A further if statement checks if the current checkbox iteration is the latest clicked checkbox or the previously clicked checkbox.
 
